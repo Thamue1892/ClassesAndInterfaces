@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FBDC1F2-6DD1-4F01-A9AD-A255EE348C6A}</ProjectGuid>
+    <ProjectGuid>{283ED536-F3E0-47F2-8536-5C613A13C1F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AccessModifiers</RootNamespace>
-    <AssemblyName>AccessModifiers</AssemblyName>
+    <RootNamespace>Indexers</RootNamespace>
+    <AssemblyName>Indexers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
+    <Compile Include="HttpCookie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
